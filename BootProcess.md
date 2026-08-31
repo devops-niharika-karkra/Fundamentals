@@ -56,27 +56,19 @@
 <div align="center">
  <h3>Power ON</h3>
  |
- V
  <h3>BIOS|UEFI</h3>
  |
- V
  <h3>Executes MBR - 1st stage boot-loader</h3>
  |
- V
  <h3>Volume Boot Record - 2nd stage boot-loader</h3>
  |
- V
  <h3>Kernel Initialization</h3>
  |
- V
  <h3>User Space Initialization</h3>
  |
- V
  <h3>System Services Start</h3>
  |
- V
  <h3>Login Screen Appears</h3>
  |
- V
  <h3>Applications Run </h3>
 </div>
