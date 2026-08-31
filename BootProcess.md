@@ -30,10 +30,10 @@
  <ul><b>Step 4: </b> Volume Boot Record - 2nd stage boot-loader 
 <p>Such as GRUB, BOOTMGR, or BootX. Here, an Operating System is transferred to the kernel image and control is transferred to the kernel of the operating system. </p></ul>
   </li>
-<ul><b>Step 5:</b> Kernel 
+<ul><b>Step 5:</b> Kernel Initialization
  <p>After loading the kernel, bootloader turns over execution to it and the kernel initializes the rest of the operating system. Such as loads device drivers, sets up interrupts, and starts the process scheduler. </p> </ul> 
 
-<ul><b>Step 6: </b> Init
+<ul><b>Step 6: </b> User Space Initialization
 <p>Kernel then start the first user process called <b>systemd/init</b>. It always runs with Process ID (PID) 1.</p>
 </ul>
 
