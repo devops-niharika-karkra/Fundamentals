@@ -19,8 +19,11 @@
          <ul> <b> Step 2.1 POST - Power On Self Test: </b> In order to check the operability of all the hardware 
          connected to our computer system, BIOS carries out POST which will check the hardware components and if any problem 
          is found user is alerted with POST beeps and POST screen messaged. </ul>
+ <br>       
+<ul> <b> Step 2.2 Loads the MBR: </b> It loads and executes the first sector off the disk it decides to boot from. This first sector of a hard disk is called the Master Boot Recorder. </ul>
+        </ul>
        </li>
-      </ul>
-      <p> </p>
+ <ul><b>Step 3: </b> Executes MBR </ul>
+      
   </li>
 </div>
